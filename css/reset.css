@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import "/fonts/psu-stidti-regular.woff2";
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -113,8 +113,8 @@ section {
 
 body {
     /* Modified */
-    font-family: 'Rubik';
-    line-height: 1.2;
+    font-family: 'PSU Stidti';
+    line-height: 1.4;
     font-size: 14px;
     box-sizing: border-box;
     background-color: rgb(245, 245, 245);
@@ -141,4 +141,8 @@ q:after {
 table {
     border-collapse: collapse;
     border-spacing: 0;
+}
+
+button {
+    font-family: 'PSU Stidti';
 }
