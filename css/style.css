@@ -369,24 +369,6 @@
     text-align: center;
 }
 
-@media only screen and (min-width: 1200px) {
-    .default-padding {
-        width: calc(100% - (20vw*2));
-        padding-left: 20vw;
-        padding-right: 20vw;
-    }
-    .content-padding {
-        width: calc(100% - (20vw*2));
-        padding-left: 20vw;
-        padding-right: 20vw;
-        padding-top: 24px;
-        padding-bottom: 24px;
-    }
-    .drawer .drawer-menu {
-        padding-right: 20vw;
-    }
-}
-
 @media only screen and (min-width: 768px) {
     .navbar li:first-child {
         margin-left: 0px;
@@ -482,5 +464,23 @@
         flex-direction: column;
         text-align: right;
         justify-content: right;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .default-padding {
+        width: calc(100% - (20vw*2));
+        padding-left: 20vw;
+        padding-right: 20vw;
+    }
+    .content-padding {
+        width: calc(100% - (20vw*2));
+        padding-left: 20vw;
+        padding-right: 20vw;
+        padding-top: 24px;
+        padding-bottom: 24px;
+    }
+    .drawer .drawer-menu {
+        padding-right: 20vw;
     }
 }
